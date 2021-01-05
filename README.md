@@ -39,12 +39,15 @@ docker exec -it dataflow-server java -jar shell.jar
  |____/ \__,_|\__\__,_| |_|   |_|\___/ \_/\_/    /_/_/_/_/_/
 
 2.7.0
-```
+
 dataflow:>app register --name VaibhavSource --type source --uri file://root/scdf/scdf/source/scdf_source_app-1.0.0.RELEASE.jar
 Successfully registered application 'source:VaibhavSource'
+
 dataflow:>app register --name VaibhavSink --type sink --uri file://root/scdf/scdf/source/scdf_sink_app-1.0.0.RELEASE.jar
 Successfully registered application 'sink:VaibhavSink'
+
 dataflow:>app register --name VaibhavProcessor --type processor --uri file://root/scdf/scdf/source/scdf_processor_app-1.0.0.RELEASE.jar
 Successfully registered application 'processor:VaibhavProcessor'
+```
 
 
