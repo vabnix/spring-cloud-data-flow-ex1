@@ -1,2 +1,0 @@
-com/vaibhav/scdf/source/SourceApplicationTests.java
- com.vaibhav.scdf.source.SourceApplicationTests

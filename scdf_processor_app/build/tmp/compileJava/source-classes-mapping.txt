@@ -1,8 +1,0 @@
-com/vaibhav/scdf/processor/ProcessorApplication.java
- com.vaibhav.scdf.processor.ProcessorApplication
-com/vaibhav/scdf/processor/GreetingResponseMessage.java
- com.vaibhav.scdf.processor.GreetingResponseMessage
-com/vaibhav/scdf/processor/GreetingMessageConverter.java
- com.vaibhav.scdf.processor.GreetingMessageConverter
-com/vaibhav/scdf/processor/GreetingMessage.java
- com.vaibhav.scdf.processor.GreetingMessage

@@ -1,2 +1,0 @@
-com/vaibhav/scdf/sink/SinkApplicationTests.java
- com.vaibhav.scdf.sink.SinkApplicationTests
