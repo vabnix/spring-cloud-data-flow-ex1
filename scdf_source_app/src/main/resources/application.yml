@@ -6,10 +6,10 @@ spring:
     stream:
       bindings:
         output:
-          group: haliho
+          group: scdf
           destination: demo
           producer:
-            required-groups: haliho
+            required-groups: scdf
           content-type: application/xml
 
 
