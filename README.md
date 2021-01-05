@@ -1,6 +1,6 @@
 # Spring Cloud Data Flow Example with RabbitMQ Binder
 
-Repository contains 3 individual spring application 
+Repository contains 3 individual spring application . This is Message-driven applications where an unbounded amount of data is consumed or produced through a single input or output (or both).
 
 Follow Below Steps
 
@@ -17,8 +17,10 @@ Once the docker instance are up you can access RabbitMQ home at
 
 Start each individual application from this repository 
 
-| Application   | Associated Port   |
-| ------------- |:-------------:|
-| scdf_source_app   | 8081 |
-| scdf_sink_app     | 8082 |
-| scdf_processor_app  | 8083 |
+| Application   | Associated Port   | Remarks |
+| ------------- |:-------------:| :-------------:|
+| scdf_source_app   | 8081 | Message producer that sends messages to a destination |
+| scdf_sink_app     | 8082 | Message consumer that reads messages from a destination |
+| scdf_processor_app  | 8083 | The combination of a source and a sink. A processor consumes message from a destination and produces messages to send to another destination |
+
+
