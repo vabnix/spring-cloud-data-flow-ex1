@@ -1,0 +1,2 @@
+com/vaibhav/scdf/sink/SinkApplication.java
+ com.vaibhav.scdf.sink.SinkApplication

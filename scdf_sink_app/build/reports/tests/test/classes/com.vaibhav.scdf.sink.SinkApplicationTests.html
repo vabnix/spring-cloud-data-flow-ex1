@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SinkApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SinkApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.vaibhav.scdf.sink.html">com.vaibhav.scdf.sink</a> &gt; SinkApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.392s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.392s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:46:14.615 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:46:14.623 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:46:14.646 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.vaibhav.scdf.sink.SinkApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:46:14.654 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vaibhav.scdf.sink.SinkApplicationTests], using SpringBootContextLoader
+16:46:14.656 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.vaibhav.scdf.sink.SinkApplicationTests]: class path resource [com/vaibhav/scdf/sink/SinkApplicationTests-context.xml] does not exist
+16:46:14.657 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.vaibhav.scdf.sink.SinkApplicationTests]: class path resource [com/vaibhav/scdf/sink/SinkApplicationTestsContext.groovy] does not exist
+16:46:14.657 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.vaibhav.scdf.sink.SinkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:46:14.658 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.vaibhav.scdf.sink.SinkApplicationTests]: SinkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:46:14.689 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.vaibhav.scdf.sink.SinkApplicationTests]
+16:46:14.728 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/vaibhavsrivastava/Documents/SpringCloudDataFlow/scdf_sink_app/build/classes/java/main/com/vaibhav/scdf/sink/SinkApplication.class]
+16:46:14.741 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.vaibhav.scdf.sink.SinkApplication for test class com.vaibhav.scdf.sink.SinkApplicationTests
+16:46:14.801 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.vaibhav.scdf.sink.SinkApplicationTests]: using defaults.
+16:46:14.802 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:46:14.808 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+16:46:14.812 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@201cf8fe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@53086ef7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@9be007f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3955c053, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7ec9148f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6ea6b277, org.springframework.test.context.event.EventPublishingTestExecutionListener@1762fa24, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a2f7c3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@36f9e634, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d97cf96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d24bbda, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7aaf5552, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@31ed475]
+16:46:14.814 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@bab52e0 testClass = SinkApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f7b841f testClass = SinkApplicationTests, locations = '{}', classes = '{class com.vaibhav.scdf.sink.SinkApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5e1657e5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7cd61260, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1f091b2f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@640eed9a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7453246b, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6d5f4723], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+16:46:14.822 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@bab52e0 testClass = SinkApplicationTests, testInstance = com.vaibhav.scdf.sink.SinkApplicationTests@6d189651, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f7b841f testClass = SinkApplicationTests, locations = '{}', classes = '{class com.vaibhav.scdf.sink.SinkApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5e1657e5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7cd61260, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1f091b2f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@640eed9a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7453246b, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6d5f4723], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+16:46:14.836 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.1)
+
+2021-01-04 16:46:15.199  INFO 39880 --- [    Test worker] c.v.scdf.sink.SinkApplicationTests       : Starting SinkApplicationTests using Java 14.0.1 on MacBook-Pro.local with PID 39880 (started by vaibhavsrivastava in /Users/vaibhavsrivastava/Documents/SpringCloudDataFlow/scdf_sink_app)
+2021-01-04 16:46:15.200  INFO 39880 --- [    Test worker] c.v.scdf.sink.SinkApplicationTests       : No active profile set, falling back to default profiles: default
+2021-01-04 16:46:15.672  INFO 39880 --- [    Test worker] o.s.c.a.ConfigurationClassEnhancer       : @Bean method FunctionConfiguration.po is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-01-04 16:46:15.682  INFO 39880 --- [    Test worker] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-01-04 16:46:15.685  INFO 39880 --- [    Test worker] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2021-01-04 16:46:15.688  INFO 39880 --- [    Test worker] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-01-04 16:46:15.759  INFO 39880 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-04 16:46:15.764  INFO 39880 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-04 16:46:15.776  INFO 39880 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-04 16:46:16.471  INFO 39880 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-04 16:46:16.483  INFO 39880 --- [    Test worker] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2021-01-04 16:46:16.608  INFO 39880 --- [    Test worker] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'sink-app.input' has 1 subscriber(s).
+2021-01-04 16:46:16.611  INFO 39880 --- [    Test worker] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-01-04 16:46:16.612  INFO 39880 --- [    Test worker] o.s.i.channel.PublishSubscribeChannel    : Channel 'sink-app.errorChannel' has 1 subscriber(s).
+2021-01-04 16:46:16.612  INFO 39880 --- [    Test worker] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2021-01-04 16:46:16.612  INFO 39880 --- [    Test worker] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2021-01-04 16:46:16.711  INFO 39880 --- [    Test worker] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2021-01-04 16:46:16.711  INFO 39880 --- [    Test worker] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-01-04 16:46:16.774  INFO 39880 --- [    Test worker] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: demo-processed.haliho, bound to: demo-processed
+2021-01-04 16:46:16.777  INFO 39880 --- [    Test worker] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-01-04 16:46:17.094  INFO 39880 --- [    Test worker] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7b0864d5:0/SimpleConnection@e132a8d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57857]
+2021-01-04 16:46:17.143  INFO 39880 --- [    Test worker] o.s.c.stream.binder.BinderErrorChannel   : Channel 'demo-processed.haliho.errors' has 1 subscriber(s).
+2021-01-04 16:46:17.143  INFO 39880 --- [    Test worker] o.s.c.stream.binder.BinderErrorChannel   : Channel 'demo-processed.haliho.errors' has 2 subscriber(s).
+2021-01-04 16:46:17.168  INFO 39880 --- [    Test worker] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.demo-processed.haliho'
+2021-01-04 16:46:17.187  INFO 39880 --- [    Test worker] c.v.scdf.sink.SinkApplicationTests       : Started SinkApplicationTests in 2.349 seconds (JVM running for 3.103)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.5.1</a> at Jan 4, 2021, 4:46:18 PM</p>
+</div>
+</div>
+</body>
+</html>
